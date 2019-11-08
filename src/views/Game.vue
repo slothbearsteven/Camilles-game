@@ -13,18 +13,17 @@ export default {
     hero() {
       return this.$store.state.hero;
     },
-    inventory() {
-      return this.$store.state.inventory;
+    items() {
+      return this.$store.state.items;
     },
-    enemies() {
-      return this.$store.state.activeEnemies;
+    enemy() {
+      return this.$store.state.activeEnemy;
     }
   },
   methods: {
-    heroDamaged() {},
-    enemyDamaged(enemy) {},
-    itemUsed(item) {},
-    itemEquipped(item) {}
+   attack(hero,enemy,item){
+     this.$store.dispatch()
+   }
   },
   components: {}
 };
