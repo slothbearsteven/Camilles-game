@@ -21,9 +21,9 @@ export default {
     }
   },
   methods: {
-   attack(hero,enemy,item){
-     this.$store.dispatch()
-   }
+    attack(hero, enemy, item) {
+      this.$store.dispatch("attack", hero, enemy, item);
+    }
   },
   components: {}
 };
