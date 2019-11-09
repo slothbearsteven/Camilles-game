@@ -1,5 +1,14 @@
 <template>
-  <div class="game"></div>
+  <div class="game">
+<div class="container">
+  <div class="row">
+    <!-- Place characters here -->
+  </div>
+  <div class="row"></div>
+</div>
+
+  </div>
+
 </template>
 
 
