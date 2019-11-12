@@ -4,7 +4,9 @@
   <div class="row">
     <!-- Place characters here -->
   </div>
-  <div class="row"></div>
+  <div class="row">
+  <!-- Place info/options here -->
+  </div>
 </div>
 
   </div>
