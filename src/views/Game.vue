@@ -1,16 +1,31 @@
 <template>
   <div class="game">
-<div class="container">
-  <div class="row">
-    <!-- Place characters here -->
+    <div class="container">
+      <div class="row">
+        <!-- Place character images here -->
+        <div class="col-4 enemy">
+          <img :src="enemy.image" alt />
+        </div>
+        <div class="col-4 hero">
+          <img :src="hero.image" alt />
+        </div>
+      </div>
+      <div class="row stats">
+        <!-- Place info/options here -->
+        <div class="col-2">
+          {{enemy.name}}
+          <br />
+          {{enemy.health}}
+        </div>
+        <div class="col-6"></div>
+        <div class="col-2">
+          {{hero.name}}
+          <br />
+          {{hero.health}}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="row">
-  <!-- Place info/options here -->
-  </div>
-</div>
-
-  </div>
-
 </template>
 
 
@@ -42,4 +57,8 @@ export default {
 
 
 <style scoped>
+.image {
+  height: 30px;
+  width: 30px;
+}
 </style>

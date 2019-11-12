@@ -10,7 +10,7 @@ export default new Vuex.Store({
       strength: 5,
       health: 50,
       mana: 50,
-      image: "./assets/Camille.png"
+      image: "../assets/Camille.png"
     },
     enemies: [
       { name: "gremlin", strength: 2, health: 10 },
@@ -20,7 +20,7 @@ export default new Vuex.Store({
       name: "test",
       strength: 3,
       health: 10,
-      image: "./assets/slime.png"
+      image: "../assets/slime.png"
     },
 
     items: {
