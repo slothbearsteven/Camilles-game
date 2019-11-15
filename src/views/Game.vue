@@ -17,7 +17,13 @@
           <br />
           {{enemy.health}}
         </div>
-        <div class="col-6"></div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6" v-for="item in items" :key="item.name">
+              <button class="btn btn-secondary" @click="attack(hero,enemy,item)"></button>
+            </div>
+          </div>
+        </div>
         <div class="col-2">
           {{hero.name}}
           <br />
